@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Security Company</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: rgba(30, 49, 154, 0.889);
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            width: auto;
+        }
+
+        header img {
+            width: fit-content;
+            max-width: 28%; /* Adjust the size of your logo */
+            min-width: 12%;
+        }
+
+        header h1 {
+            display: none; /* Hide the text title */
+        }
+
+        nav {
+            background-color: #444;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .cta-buttons {
+            display: flex;
+            flex-wrap: wrap; /* Ensure buttons wrap to the next line on smaller screens */
+            justify-content: center;
+        }
+
+        .cta-button {
+            margin: 10px;
+            background-color: #0074cc; /* Blue color for the CTA button */
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border: 2px solid #0074cc; /* Blue border for the CTA button */
+            border-radius: 5px;
+            text-align: center;
+            width: auto; /* Make buttons take their natural width */
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .content {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px; /* Add space between content sections */
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        /* Media query for smaller screens */
+        @media (max-width: 768px) {
+            header {
+                padding: 10px; /* Reduce header padding for smaller screens */
+            }
+
+            .cta-buttons {
+                flex-direction: row; /* Make buttons display in a row on smaller screens */
+            }
+
+            .cta-button {
+                margin: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="TG.jpeg" alt="Your Logo">
+    </header>
+    <nav>
+        <div class="cta-buttons">
+            <a class="cta-button" href="home.html">Home</a>
+            <a class="cta-button" href="EF.html">Electric Fence</a>
+            <a class="cta-button" href="garage-doors.html">Garage Doors</a>
+            <a class="cta-button" href="cctv-services.html">CCTV Services</a>
+            <a class="cta-button" href="gatemotors.html">Gate Motors</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="content" id="electric-fence">
+            <h2>Electric Fence</h2>
+            <p>Experience security redefined with our cutting-edge electric fence. Unparalleled protection meets sleek design, creating an invisible shield for your peace of mind. Safeguard your home or business with advanced technology, deterring intruders while seamlessly blending into your surroundings. Elevate your security, embrace tranquility.</p>
+        </div>
+        <div class="content" id="garage-doors">
+            <h2>Garage Doors</h2>
+            <p>Elevate your home's appeal and security with our state-of-the-art garage doors. Seamless integration of style and strength ensures a stunning facade while protecting your valuable assets. Experience convenience and reliability every time you arrive home. Upgrade to sophistication, welcome security</p>
+        </div>
+        <div class="content" id="cctv-services">
+            <h2>CCTV Services</h2>
+            <p>Empower your peace of mind with our cutting-edge CCTV services. Illuminate the unseen, protect what matters most. Our advanced surveillance solutions seamlessly blend technology and reliability, offering round-the-clock security. Safeguard your world, stay connected, and enjoy unparalleled peace of mind with our top-tier CCTV services.</p>
+        </div>
+        <div class="content" id="gate-motors">
+            <h2>Gate Motors</h2>
+            <p>Secure your property with our reliable gate motors. Our gate motor solutions combine durability with advanced technology, ensuring smooth and secure access to your premises. Experience convenience and peace of mind with our range of gate motor installations.</p>
+           
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2023 Your Security Company. All rights reserved.
+    </footer>
+</body>
+</html>

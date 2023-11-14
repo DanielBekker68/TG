@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topgun</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: rgba(30, 49, 154, 0.889);
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            width: auto;
+        }
+
+        header img {
+            width: fit-content;
+            max-width: 28%; /* Adjust the size of your logo */
+            min-width: 12%;
+        }
+
+        header h1 {
+            display: none; /* Hide the text title */
+        }
+
+        nav {
+            background-color: #444;
+            text-align: center;
+            padding: 10px;
+            
+        }
+
+        .cta-buttons {
+            display: flex;
+            flex-wrap: wrap; /* Ensure buttons wrap to the next line on smaller screens */
+            justify-content: center;
+        }
+
+        .cta-button {
+            margin: 10px;
+            background-color: #0074cc; /* Blue color for the CTA button */
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border: 2px solid #0074cc; /* Blue border for the CTA button */
+            border-radius: 5px;
+            text-align: center;
+            width: auto; /* Make buttons take their natural width */
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .content {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px; /* Add space between content sections */
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        /* Media query for smaller screens */
+        @media (max-width: 768px) {
+            header {
+                padding: 10px; /* Reduce header padding for smaller screens */
+            }
+
+            .cta-buttons {
+                flex-direction: row; /* Make buttons display in a row on smaller screens */
+            }
+
+            .cta-button {
+                margin: 10px;
+            }
+        }
+    </style>
+
+
+
+
+</head>
+<body>
+    <header>
+        <img src="TG.jpeg" alt="Your Logo">
+
+    </header>
+    <nav>
+        <div class="cta-buttons">
+            <a class="cta-button" href="home.html">Home</a>
+            <a class="cta-button" href="EF.html">Electric Fence</a>
+            <a class="cta-button" href="garage-doors.html">Garage Doors</a>
+            <a class="cta-button" href="cctv-services.html">CCTV Services</a>
+            <a class="cta-button" href="gatemotors.html">Gate motors</a>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="content" id="cctv-services">
+            <h2>CCTV Services</h2>
+            <p>Empower your peace of mind with our cutting-edge CCTV services. We redefine surveillance, offering a comprehensive solution to protect what matters most. Our advanced CCTV systems seamlessly blend technology and reliability, providing round-the-clock security for your home or business.</p>
+
+            <p>Discover the power of visibility with our high-resolution cameras and state-of-the-art monitoring capabilities. Our CCTV solutions are designed to illuminate the unseen, offering unparalleled clarity in every frame. From live monitoring to recorded footage, stay connected and enjoy peace of mind, knowing your property is under constant watch.</p>
+
+            <p>Our CCTV services go beyond mere surveillance; they serve as a deterrent to potential threats. The presence of our advanced cameras acts as a proactive security measure, dissuading intruders and enhancing the overall safety of your environment.</p>
+
+            <p>With remote access features, you can monitor your property from anywhere, anytime. Whether you're at home, in the office, or on the go, our CCTV systems provide real-time insights and alerts, allowing you to respond promptly to any situation.</p>
+
+            <p>Explore the images below to see the quality and versatility of our CCTV systems:</p>
+
+            <div class="image-container">
+                <img src="CC.jpg" alt="CCTV Camera 1">
+                <img src="CC2.jpg" alt="CCTV Camera 2">
+                <p>Experience the next level of security with our advanced CCTV services. Our cutting-edge cameras and monitoring solutions redefine surveillance, providing unparalleled peace of mind.</p>
+                <a class="cta-button" href="book-installation.html">Book Installation</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2023 Your Security Company. All rights reserved.
+    </footer>
+</body>
+</html>
